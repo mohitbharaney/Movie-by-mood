@@ -35,8 +35,9 @@ public class CustomGestureActivity extends ActionBarActivity implements OnGestur
 	Bitmap bitmap;
 	ImageView imageView;
 	Button DoneButton,clearButton;
-	private ArrayList<Path> pointsToDraw = new ArrayList<Path>();
+	//private ArrayList<Path> pointsToDraw = new ArrayList<Path>();
 	private ArrayList<String> gesturesMade=new ArrayList<String>();
+	Display display;
 	TextView ans;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -46,18 +47,9 @@ public class CustomGestureActivity extends ActionBarActivity implements OnGestur
 		path=new Path();
 		paint=new Paint();
 		paint.setColor(Color.BLUE);
-
 		setContentView(R.layout.fragment_custom_gesture);
-
-
 		DoneButton=(Button) findViewById(R.id.ans);
 		clearButton=(Button) findViewById(R.id.clear);
-
-
-
-
-
-
 		setContentView(R.layout.activity_custom_gesture);
 		if (savedInstanceState == null) {
 			getSupportFragmentManager().beginTransaction()
@@ -101,7 +93,11 @@ public class CustomGestureActivity extends ActionBarActivity implements OnGestur
 		ans=(TextView)(findViewById(R.id.textView1));
 		ans.setText("");
 		//canvas=new Canvas();
-
+		display= getWindowManager().getDefaultDisplay();
+		bitmap=Bitmap.createBitmap(display.getWidth(), display.getHeight(), Bitmap.Config.ARGB_8888);
+		canvas = new Canvas(bitmap);
+		imageView.setImageBitmap(bitmap);
+		gesturesMade.clear();
 	}
 
 	@Override
@@ -153,7 +149,7 @@ public class CustomGestureActivity extends ActionBarActivity implements OnGestur
 		gOverlay.setGestureStrokeWidth(8);
 		imageView=(ImageView) findViewById(R.id.imageView1);
 
-		Display display= getWindowManager().getDefaultDisplay();
+		display= getWindowManager().getDefaultDisplay();
 		bitmap=Bitmap.createBitmap(display.getWidth(), display.getHeight(), Bitmap.Config.ARGB_8888);
 		canvas = new Canvas(bitmap);
 		gOverlay.addOnGesturePerformedListener(this); 
