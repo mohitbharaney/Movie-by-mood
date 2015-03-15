@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.sortmeapp.MoodChoicesActivity"
+    android:weightSum="1" >
+	
+	<GridView 
+    	android:id="@+id/gridView"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_margin="4dp"   	
+    	android:paddingTop="15dp"
+    	
+    	android:numColumns="2"
+    	android:verticalSpacing="10dp"
+    	android:horizontalSpacing="5dp"
+    	android:stretchMode="columnWidth"
+    	android:gravity="center_vertical" />
+
+</LinearLayout>   
+

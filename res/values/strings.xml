@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">sort me app</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_note">Welcome to sort me app</string>
+    <string name="button_continue">Continue</string>
+    <string name="title_activity_mood_choices">Your Mood Choices</string>
+    <string name="action_search">Continue</string>
+    <string name="radio_cheerful">Cheerful</string>
+    <string name="radio_romantic">Romantic</string>
+    <string name="radio_confused">Confused</string>
+    <string name="radio_pensive">Pensive</string>
+    <string name="radio_gloomy">Gloomy</string>
+    <string name="radio_angry">Angry</string>
+    <string name="title_activity_display_matched_list">Matched Movies</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="configuration">http://api.themoviedb.org/3/configuration?api_key=40ddf5a548a42db2b58e8e074f09329a</string>
+	<string name="comedy">http://api.themoviedb.org/3/genre/35/movies?api_key=40ddf5a548a42db2b58e8e074f09329a&amp;lang=en</string>
+    <string name="family">http://api.themoviedb.org/3/genre/10751/movies?api_key=40ddf5a548a42db2b58e8e074f09329a&amp;lang=en</string>
+    <string name="animation">http://api.themoviedb.org/3/genre/16/movies?api_key=40ddf5a548a42db2b58e8e074f09329a&amp;lang=en</string>
+    <string name="holiday">http://api.themoviedb.org/3/genre/10595/movies?api_key=40ddf5a548a42db2b58e8e074f09329a&amp;lang=en</string>
+    <string name="history">http://api.themoviedb.org/3/genre/36/movies?api_key=40ddf5a548a42db2b58e8e074f09329a&amp;lang=en</string>
+    <string name="erotic">http://api.themoviedb.org/3/genre/2916/movies?api_key=40ddf5a548a42db2b58e8e074f09329a&amp;lang=en</string>
+    <string name="musical">http://api.themoviedb.org/3/genre/22/movies?api_key=40ddf5a548a42db2b58e8e074f09329a&amp;lang=en</string>
+    <string name="romance">http://api.themoviedb.org/3/genre/10749/movies?api_key=40ddf5a548a42db2b58e8e074f09329a&amp;lang=en</string>
+    <string name="drama">http://api.themoviedb.org/3/genre/18/movies?api_key=40ddf5a548a42db2b58e8e074f09329a&amp;lang=en</string>
+    <string name="crime">http://api.themoviedb.org/3/genre/80/movies?api_key=40ddf5a548a42db2b58e8e074f09329a&amp;lang=en</string>
+    <string name="documentary">http://api.themoviedb.org/3/genre/99/movies?api_key=40ddf5a548a42db2b58e8e074f09329a&amp;lang=en</string>
+    <string name="suspense">http://api.themoviedb.org/3/genre/10748/movies?api_key=40ddf5a548a42db2b58e8e074f09329a&amp;lang=en</string>
+    <string name="scifi">http://api.themoviedb.org/3/genre/878/movies?api_key=40ddf5a548a42db2b58e8e074f09329a&amp;lang=en</string>
+    <string name="sports">http://api.themoviedb.org/3/genre/10757/movies?api_key=40ddf5a548a42db2b58e8e074f09329a&amp;lang=en</string>
+    <string name="fantasy">http://api.themoviedb.org/3/genre/14/movies?api_key=40ddf5a548a42db2b58e8e074f09329a&amp;lang=en</string>
+    <string name="action">http://api.themoviedb.org/3/genre/28/movies?api_key=40ddf5a548a42db2b58e8e074f09329a&amp;lang=en</string>
+    <string name="war">http://api.themoviedb.org/3/genre/10752/movies?api_key=40ddf5a548a42db2b58e8e074f09329a&amp;lang=en</string>
+    <string name="confused">http://api.themoviedb.org/3/movie/popular?api_key=40ddf5a548a42db2b58e8e074f09329a&amp;lang=en</string>
+</resources>
